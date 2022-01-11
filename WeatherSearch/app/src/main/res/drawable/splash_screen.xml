@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/weather_partly_snowy_rainy"
+        android:tint="@color/white"
+        android:height="50dp"
+        android:width="50dp"
+        android:gravity="center"
+        tools:targetApi="m">
+    </item>
+    <item
+        android:bottom="50dp">
+        <bitmap android:src="@drawable/powered_by_tomorrow_white"
+        android:gravity="bottom|center|fill_horizontal"/>
+    </item>
+</layer-list>
